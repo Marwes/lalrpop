@@ -11,7 +11,7 @@ use util::{Escape, Sep};
 
 use super::base::CodeGenerator;
 
-const DEBUG_PRINT: bool = false;
+const DEBUG_PRINT: bool = true;
 
 pub fn compile<'grammar, W: Write>(grammar: &'grammar Grammar,
                                    user_start_symbol: NonterminalString,
@@ -518,6 +518,13 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
                 self.prefix,
                 self.prefix,
                 self.prefix);
+
+            if DEBUG_PRINT {
+                rust!(self.out, "println!(\"Attempting to recover on EOF in state: {{}}, error_state: {{}}, symbols: {{}}\", {}state, {}error_state - 1, {}symbols.len());",
+                    self.prefix,
+                    self.prefix,
+                    self.prefix);
+            }
 
             rust!(self.out, "if {}error_state != 0 {{", self.prefix);
             rust!(self.out, "if {}EOF_ACTION[({}error_state as usize - 1)] == 0 {{",
