@@ -526,12 +526,10 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
                     self.prefix);
             }
 
-            rust!(self.out, "if {}error_state != 0 {{", self.prefix);
-            rust!(self.out, "if {}EOF_ACTION[({}error_state as usize - 1)] == 0 {{",
+            rust!(self.out, "if {}error_state != 0 && {}EOF_ACTION[({}error_state as usize - 1)] != 0 {{",
+                self.prefix,
                 self.prefix,
                 self.prefix);
-            rust!(self.out, "return Err({}error);", self.prefix);
-            rust!(self.out, "}}");
             rust!(self.out, "let {}new_len = {}symbols.len() - ({}original_state_len - {}states.len());",
                 self.prefix,
                 self.prefix,
