@@ -362,11 +362,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             "states: &mut Vec<{state_type}>,",
             state_type = state_type
         );
-        rust!(
-            self.out,
-            "symbols: &mut Vec<{p}state_machine::SymbolTriple<Self>>,",
-            p = self.prefix,
-        );
+        rust!(self.out, "symbols: &mut {}", self.stack_type(),);
         rust!(
             self.out,
             ") -> Option<{p}state_machine::ParseResult<Self>> {{",
@@ -425,45 +421,110 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
 
         rust!(self.out, " {{");
 
-        // make one variant per terminal
-        for term in &self.grammar.terminals.all {
-            let ty = self.types.terminal_type(term).clone();
-            let len = self.custom.variants.len();
-            let name = match self.custom.variants.entry(ty.clone()) {
-                Entry::Occupied(entry) => entry.into_mut(),
-                Entry::Vacant(entry) => {
-                    let name = format!("Variant{}", len);
+        let types = &self.types;
+        let custom = &mut self.custom;
+        let out = &mut self.out;
+        let mut variants = Vec::new();
+        // make one variant per terminal and nonterminal
+        self.grammar
+            .terminals
+            .all
+            .iter()
+            .map(|term| {
+                let ty = types.terminal_type(term).clone();
+                (Symbol::Terminal(term.clone()), ty)
+            })
+            .chain(self.grammar.nonterminals.keys().map(|nt| {
+                let ty = types.nonterminal_type(nt).clone();
+                (Symbol::Nonterminal(nt.clone()), ty)
+            }))
+            .try_for_each(|(symbol, ty)| -> io::Result<()> {
+                let len = custom.variants.len();
+                let name = match custom.variants.entry(ty.clone()) {
+                    Entry::Occupied(entry) => entry.into_mut(),
+                    Entry::Vacant(entry) => {
+                        let name = format!("Variant{}", len);
 
-                    rust!(self.out, "{}({}),", name, ty);
-                    entry.insert(name)
-                }
-            };
+                        variants.push(name.clone());
 
-            self.custom
-                .variant_names
-                .insert(Symbol::Terminal(term.clone()), name.clone());
+                        rust!(out, "{}({}),", name, ty);
+                        entry.insert(name)
+                    }
+                };
+
+                custom.variant_names.insert(symbol, name.clone());
+
+                Ok(())
+            })?;
+
+        rust!(self.out, "}}");
+
+        let loc_type = self.types.terminal_loc_type();
+
+        rust!(
+            self.out,
+            "impl<{params}> {p}lalrpop_util::stack::Push for {p}Symbol<{params}>",
+            p = self.prefix,
+            params = Sep(", ", &self.custom.symbol_type_params),
+        );
+        if !self.custom.symbol_where_clauses.is_empty() {
+            rust!(
+                self.out,
+                " where {}",
+                Sep(", ", &self.custom.symbol_where_clauses),
+            );
         }
+        rust!(self.out, "{{");
 
-        // make one variant per nonterminal
-        for nt in self.grammar.nonterminals.keys() {
-            let ty = self.types.nonterminal_type(nt).clone();
-            let len = self.custom.variants.len();
-            let name = match self.custom.variants.entry(ty.clone()) {
-                Entry::Occupied(entry) => entry.into_mut(),
-                Entry::Vacant(entry) => {
-                    let name = format!("Variant{}", len);
+        rust!(
+            self.out,
+            "type Value = ({loc}, {p}Symbol<{params}>, {loc});",
+            loc = loc_type,
+            p = self.prefix,
+            params = Sep(", ", &self.custom.symbol_type_params),
+        );
 
-                    rust!(self.out, "{}({}),", name, ty);
-                    entry.insert(name)
-                }
-            };
+        rust!(
+            self.out,
+            "unsafe fn push_to((l, v, r): Self::Value, stack: &mut {p}lalrpop_util::stack::Stack<Self>) {{",
+            p = self.prefix,
+        );
+        rust!(self.out, "match v {{");
 
-            self.custom
-                .variant_names
-                .insert(Symbol::Nonterminal(nt.clone()), name.clone());
+        for (i, name) in variants.iter().enumerate() {
+            rust!(
+                self.out,
+                "Self::{}(v) => stack.unchecked_push({}, (l, v, r)),",
+                name,
+                i
+            );
         }
 
         rust!(self.out, "}}");
+        rust!(self.out, "}}");
+
+        rust!(
+            self.out,
+            "unsafe fn pop_from(tag: {p}lalrpop_util::stack::Tag, stack: &mut {p}lalrpop_util::stack::Stack<Self>) -> Self::Value {{",
+            p = self.prefix,
+        );
+        rust!(self.out, "match tag {{");
+
+        for (i, name) in variants.iter().enumerate() {
+            rust!(
+                self.out,
+                "{} => {{ let (l, x, r) = stack.unchecked_pop(); (l, Self::{}(x), r) }}",
+                i,
+                name,
+            );
+        }
+        rust!(self.out, "_ => unreachable!(),");
+
+        rust!(self.out, "}}");
+        rust!(self.out, "}}");
+
+        rust!(self.out, "}}");
+
         Ok(())
     }
 
@@ -715,7 +776,6 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         let success_type = self.types.nonterminal_type(&self.start_symbol);
         let parse_error_type = self.types.parse_error_type();
         let loc_type = self.types.terminal_loc_type();
-        let spanned_symbol_type = self.spanned_symbol_type();
 
         let parameters = vec![
             format!("{}action: {}", self.prefix, self.custom.state_type),
@@ -724,10 +784,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
                 "{}states: &mut ::std::vec::Vec<{}>",
                 self.prefix, self.custom.state_type
             ),
-            format!(
-                "{}symbols: &mut ::std::vec::Vec<{}>",
-                self.prefix, spanned_symbol_type
-            ),
+            format!("{}symbols: &mut {}", self.prefix, self.stack_type(),),
             format!("_: {}", self.phantom_data_type()),
         ];
 
@@ -859,7 +916,6 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
 
     fn emit_reduce_alternative_fn_header(&mut self, index: usize) -> io::Result<()> {
         let loc_type = self.types.terminal_loc_type();
-        let spanned_symbol_type = self.spanned_symbol_type();
 
         let parameters = vec![
             format!("{}action: {}", self.prefix, self.custom.state_type),
@@ -868,10 +924,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
                 "{}states: &mut ::std::vec::Vec<{}>",
                 self.prefix, self.custom.state_type
             ),
-            format!(
-                "{}symbols: &mut ::std::vec::Vec<{}>",
-                self.prefix, spanned_symbol_type
-            ),
+            format!("{}symbols: &mut {}", self.prefix, self.stack_type()),
             format!("_: {}", self.phantom_data_type()),
         ];
 
@@ -926,7 +979,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             // stack will be empty)
             rust!(
                 self.out,
-                "let {}start = {}symbols.last().map(|s| s.2.clone()).unwrap_or_default();",
+                "let {}start = {}symbols.with_last(|s| s.2.clone()).unwrap_or_default();",
                 self.prefix,
                 self.prefix
             );
@@ -1039,8 +1092,6 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
     }
 
     fn emit_downcast_fn(&mut self, variant_name: &str, variant_ty: TypeRepr) -> io::Result<()> {
-        let spanned_symbol_type = self.spanned_symbol_type();
-
         rust!(self.out, "fn {}pop_{}<", self.prefix, variant_name);
         for type_parameter in &self.custom.symbol_type_params {
             rust!(self.out, "  {},", type_parameter);
@@ -1048,9 +1099,9 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         rust!(self.out, ">(");
         rust!(
             self.out,
-            "{}symbols: &mut ::std::vec::Vec<{}>",
+            "{}symbols: &mut {}",
             self.prefix,
-            spanned_symbol_type
+            self.stack_type(),
         );
         rust!(self.out, ") -> {}", self.types.spanned_type(variant_ty));
 
@@ -1366,6 +1417,14 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         rust!(self.out, "}}"); // end fn
 
         Ok(())
+    }
+
+    fn stack_type(&self) -> String {
+        format!(
+            "{p}lalrpop_util::stack::Stack<{symbol_type}>",
+            p = self.prefix,
+            symbol_type = self.symbol_type()
+        )
     }
 
     fn symbol_type(&self) -> String {
