@@ -3,6 +3,7 @@ use std::fmt;
 
 #[cfg(feature = "lexer")]
 pub mod lexer;
+pub mod stack;
 pub mod state_machine;
 
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
