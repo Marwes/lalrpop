@@ -52,6 +52,18 @@ where
         }
     }
 
+    pub fn pop_until(&mut self, i: usize) -> Option<T::Value> {
+        if i >= self.len() {
+            None
+        } else {
+            let mut out = None;
+            while i < self.len() {
+                out = self.pop();
+            }
+            out
+        }
+    }
+
     pub fn with_last<R>(&mut self, f: impl FnOnce(&T::Value) -> R) -> Option<R> {
         let v = self.pop();
         if let Some(v) = v {
@@ -136,5 +148,16 @@ mod tests {
         assert_eq!(stack.pop(), Some(Test::Int(2)));
         assert_eq!(stack.pop(), Some(Test::Float(0.0)));
         assert_eq!(stack.pop(), Some(Test::Int(1)));
+    }
+
+    #[test]
+    fn pop_until() {
+        let mut stack = Stack::<Test>::new();
+
+        stack.push(Test::Int(0));
+        stack.push(Test::Int(1));
+        stack.push(Test::Int(2));
+        assert_eq!(stack.pop_until(1), Some(Test::Int(1)));
+        assert_eq!(stack.len(), 1);
     }
 }

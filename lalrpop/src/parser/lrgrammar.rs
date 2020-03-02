@@ -129,6 +129,209 @@ Variant92(::std::option::Option<TypeBoundParameter<TypeRef>>),
 Variant93(::std::option::Option<TypeParameter>),
 Variant94(Visibility),
 }
+impl<'input> ___lalrpop_util::stack::Push for ___Symbol<'input>
+{
+type Value = (usize, ___Symbol<'input>, usize);
+unsafe fn push_to((l, v, r): Self::Value, stack: &mut ___lalrpop_util::stack::Stack<Self>) {
+match v {
+Self::Variant0(v) => stack.unchecked_push(0, (l, v, r)),
+Self::Variant1(v) => stack.unchecked_push(1, (l, v, r)),
+Self::Variant2(v) => stack.unchecked_push(2, (l, v, r)),
+Self::Variant3(v) => stack.unchecked_push(3, (l, v, r)),
+Self::Variant4(v) => stack.unchecked_push(4, (l, v, r)),
+Self::Variant5(v) => stack.unchecked_push(5, (l, v, r)),
+Self::Variant6(v) => stack.unchecked_push(6, (l, v, r)),
+Self::Variant7(v) => stack.unchecked_push(7, (l, v, r)),
+Self::Variant8(v) => stack.unchecked_push(8, (l, v, r)),
+Self::Variant9(v) => stack.unchecked_push(9, (l, v, r)),
+Self::Variant10(v) => stack.unchecked_push(10, (l, v, r)),
+Self::Variant11(v) => stack.unchecked_push(11, (l, v, r)),
+Self::Variant12(v) => stack.unchecked_push(12, (l, v, r)),
+Self::Variant13(v) => stack.unchecked_push(13, (l, v, r)),
+Self::Variant14(v) => stack.unchecked_push(14, (l, v, r)),
+Self::Variant15(v) => stack.unchecked_push(15, (l, v, r)),
+Self::Variant16(v) => stack.unchecked_push(16, (l, v, r)),
+Self::Variant17(v) => stack.unchecked_push(17, (l, v, r)),
+Self::Variant18(v) => stack.unchecked_push(18, (l, v, r)),
+Self::Variant19(v) => stack.unchecked_push(19, (l, v, r)),
+Self::Variant20(v) => stack.unchecked_push(20, (l, v, r)),
+Self::Variant21(v) => stack.unchecked_push(21, (l, v, r)),
+Self::Variant22(v) => stack.unchecked_push(22, (l, v, r)),
+Self::Variant23(v) => stack.unchecked_push(23, (l, v, r)),
+Self::Variant24(v) => stack.unchecked_push(24, (l, v, r)),
+Self::Variant25(v) => stack.unchecked_push(25, (l, v, r)),
+Self::Variant26(v) => stack.unchecked_push(26, (l, v, r)),
+Self::Variant27(v) => stack.unchecked_push(27, (l, v, r)),
+Self::Variant28(v) => stack.unchecked_push(28, (l, v, r)),
+Self::Variant29(v) => stack.unchecked_push(29, (l, v, r)),
+Self::Variant30(v) => stack.unchecked_push(30, (l, v, r)),
+Self::Variant31(v) => stack.unchecked_push(31, (l, v, r)),
+Self::Variant32(v) => stack.unchecked_push(32, (l, v, r)),
+Self::Variant33(v) => stack.unchecked_push(33, (l, v, r)),
+Self::Variant34(v) => stack.unchecked_push(34, (l, v, r)),
+Self::Variant35(v) => stack.unchecked_push(35, (l, v, r)),
+Self::Variant36(v) => stack.unchecked_push(36, (l, v, r)),
+Self::Variant37(v) => stack.unchecked_push(37, (l, v, r)),
+Self::Variant38(v) => stack.unchecked_push(38, (l, v, r)),
+Self::Variant39(v) => stack.unchecked_push(39, (l, v, r)),
+Self::Variant40(v) => stack.unchecked_push(40, (l, v, r)),
+Self::Variant41(v) => stack.unchecked_push(41, (l, v, r)),
+Self::Variant42(v) => stack.unchecked_push(42, (l, v, r)),
+Self::Variant43(v) => stack.unchecked_push(43, (l, v, r)),
+Self::Variant44(v) => stack.unchecked_push(44, (l, v, r)),
+Self::Variant45(v) => stack.unchecked_push(45, (l, v, r)),
+Self::Variant46(v) => stack.unchecked_push(46, (l, v, r)),
+Self::Variant47(v) => stack.unchecked_push(47, (l, v, r)),
+Self::Variant48(v) => stack.unchecked_push(48, (l, v, r)),
+Self::Variant49(v) => stack.unchecked_push(49, (l, v, r)),
+Self::Variant50(v) => stack.unchecked_push(50, (l, v, r)),
+Self::Variant51(v) => stack.unchecked_push(51, (l, v, r)),
+Self::Variant52(v) => stack.unchecked_push(52, (l, v, r)),
+Self::Variant53(v) => stack.unchecked_push(53, (l, v, r)),
+Self::Variant54(v) => stack.unchecked_push(54, (l, v, r)),
+Self::Variant55(v) => stack.unchecked_push(55, (l, v, r)),
+Self::Variant56(v) => stack.unchecked_push(56, (l, v, r)),
+Self::Variant57(v) => stack.unchecked_push(57, (l, v, r)),
+Self::Variant58(v) => stack.unchecked_push(58, (l, v, r)),
+Self::Variant59(v) => stack.unchecked_push(59, (l, v, r)),
+Self::Variant60(v) => stack.unchecked_push(60, (l, v, r)),
+Self::Variant61(v) => stack.unchecked_push(61, (l, v, r)),
+Self::Variant62(v) => stack.unchecked_push(62, (l, v, r)),
+Self::Variant63(v) => stack.unchecked_push(63, (l, v, r)),
+Self::Variant64(v) => stack.unchecked_push(64, (l, v, r)),
+Self::Variant65(v) => stack.unchecked_push(65, (l, v, r)),
+Self::Variant66(v) => stack.unchecked_push(66, (l, v, r)),
+Self::Variant67(v) => stack.unchecked_push(67, (l, v, r)),
+Self::Variant68(v) => stack.unchecked_push(68, (l, v, r)),
+Self::Variant69(v) => stack.unchecked_push(69, (l, v, r)),
+Self::Variant70(v) => stack.unchecked_push(70, (l, v, r)),
+Self::Variant71(v) => stack.unchecked_push(71, (l, v, r)),
+Self::Variant72(v) => stack.unchecked_push(72, (l, v, r)),
+Self::Variant73(v) => stack.unchecked_push(73, (l, v, r)),
+Self::Variant74(v) => stack.unchecked_push(74, (l, v, r)),
+Self::Variant75(v) => stack.unchecked_push(75, (l, v, r)),
+Self::Variant76(v) => stack.unchecked_push(76, (l, v, r)),
+Self::Variant77(v) => stack.unchecked_push(77, (l, v, r)),
+Self::Variant78(v) => stack.unchecked_push(78, (l, v, r)),
+Self::Variant79(v) => stack.unchecked_push(79, (l, v, r)),
+Self::Variant80(v) => stack.unchecked_push(80, (l, v, r)),
+Self::Variant81(v) => stack.unchecked_push(81, (l, v, r)),
+Self::Variant82(v) => stack.unchecked_push(82, (l, v, r)),
+Self::Variant83(v) => stack.unchecked_push(83, (l, v, r)),
+Self::Variant84(v) => stack.unchecked_push(84, (l, v, r)),
+Self::Variant85(v) => stack.unchecked_push(85, (l, v, r)),
+Self::Variant86(v) => stack.unchecked_push(86, (l, v, r)),
+Self::Variant87(v) => stack.unchecked_push(87, (l, v, r)),
+Self::Variant88(v) => stack.unchecked_push(88, (l, v, r)),
+Self::Variant89(v) => stack.unchecked_push(89, (l, v, r)),
+Self::Variant90(v) => stack.unchecked_push(90, (l, v, r)),
+Self::Variant91(v) => stack.unchecked_push(91, (l, v, r)),
+Self::Variant92(v) => stack.unchecked_push(92, (l, v, r)),
+Self::Variant93(v) => stack.unchecked_push(93, (l, v, r)),
+Self::Variant94(v) => stack.unchecked_push(94, (l, v, r)),
+}
+}
+unsafe fn pop_from(tag: ___lalrpop_util::stack::Tag, stack: &mut ___lalrpop_util::stack::Stack<Self>) -> Self::Value {
+match tag {
+0 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant0(x), r) }
+1 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant1(x), r) }
+2 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant2(x), r) }
+3 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant3(x), r) }
+4 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant4(x), r) }
+5 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant5(x), r) }
+6 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant6(x), r) }
+7 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant7(x), r) }
+8 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant8(x), r) }
+9 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant9(x), r) }
+10 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant10(x), r) }
+11 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant11(x), r) }
+12 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant12(x), r) }
+13 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant13(x), r) }
+14 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant14(x), r) }
+15 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant15(x), r) }
+16 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant16(x), r) }
+17 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant17(x), r) }
+18 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant18(x), r) }
+19 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant19(x), r) }
+20 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant20(x), r) }
+21 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant21(x), r) }
+22 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant22(x), r) }
+23 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant23(x), r) }
+24 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant24(x), r) }
+25 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant25(x), r) }
+26 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant26(x), r) }
+27 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant27(x), r) }
+28 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant28(x), r) }
+29 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant29(x), r) }
+30 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant30(x), r) }
+31 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant31(x), r) }
+32 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant32(x), r) }
+33 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant33(x), r) }
+34 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant34(x), r) }
+35 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant35(x), r) }
+36 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant36(x), r) }
+37 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant37(x), r) }
+38 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant38(x), r) }
+39 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant39(x), r) }
+40 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant40(x), r) }
+41 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant41(x), r) }
+42 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant42(x), r) }
+43 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant43(x), r) }
+44 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant44(x), r) }
+45 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant45(x), r) }
+46 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant46(x), r) }
+47 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant47(x), r) }
+48 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant48(x), r) }
+49 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant49(x), r) }
+50 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant50(x), r) }
+51 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant51(x), r) }
+52 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant52(x), r) }
+53 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant53(x), r) }
+54 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant54(x), r) }
+55 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant55(x), r) }
+56 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant56(x), r) }
+57 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant57(x), r) }
+58 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant58(x), r) }
+59 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant59(x), r) }
+60 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant60(x), r) }
+61 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant61(x), r) }
+62 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant62(x), r) }
+63 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant63(x), r) }
+64 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant64(x), r) }
+65 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant65(x), r) }
+66 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant66(x), r) }
+67 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant67(x), r) }
+68 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant68(x), r) }
+69 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant69(x), r) }
+70 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant70(x), r) }
+71 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant71(x), r) }
+72 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant72(x), r) }
+73 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant73(x), r) }
+74 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant74(x), r) }
+75 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant75(x), r) }
+76 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant76(x), r) }
+77 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant77(x), r) }
+78 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant78(x), r) }
+79 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant79(x), r) }
+80 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant80(x), r) }
+81 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant81(x), r) }
+82 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant82(x), r) }
+83 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant83(x), r) }
+84 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant84(x), r) }
+85 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant85(x), r) }
+86 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant86(x), r) }
+87 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant87(x), r) }
+88 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant88(x), r) }
+89 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant89(x), r) }
+90 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant90(x), r) }
+91 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant91(x), r) }
+92 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant92(x), r) }
+93 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant93(x), r) }
+94 => { let (l, x, r) = stack.unchecked_pop(); (l, Self::Variant94(x), r) }
+_ => unreachable!(),
+}
+}
+}
 const ___ACTION: &'static [i16] = &[
 // State 0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,5,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3825,7 +4028,7 @@ fn reduce(
 action: i16,
 start_location: Option<&Self::Location>,
 states: &mut Vec<i16>,
-symbols: &mut Vec<___state_machine::SymbolTriple<Self>>,
+symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> Option<___state_machine::ParseResult<Self>> {
 ___reduce(
 self.text,
@@ -7219,7 +7422,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> Option<Result<Top,___lalrpop_util::ParseError<usize, Tok<'input>, tok::Error>>>
 {
@@ -8779,7 +8982,7 @@ None
 fn ___pop_Variant9<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, (), usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8790,7 +8993,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant46<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, (Atom, String), usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8801,7 +9004,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant78<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, (NonterminalString, Vec<NonterminalString>), usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8812,7 +9015,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant40<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ActionKind, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8823,7 +9026,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant10<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Alternative, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8834,7 +9037,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant44<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Annotation, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8845,7 +9048,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant48<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, AssociatedType, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8856,7 +9059,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant20<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Atom, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8867,7 +9070,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant7<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Condition, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8878,7 +9081,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant59<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ConditionOp, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8889,7 +9092,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant12<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Conversion, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8900,7 +9103,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant61<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, EnumToken, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8911,7 +9114,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant62<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ExprSymbol, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8922,7 +9125,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant14<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, FieldPattern<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8933,7 +9136,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant65<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Grammar, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8944,7 +9147,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant63<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, GrammarItem, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8955,7 +9158,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant22<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Lifetime, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8966,7 +9169,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant73<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, MatchContents, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8977,7 +9180,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant24<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, MatchItem, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8988,7 +9191,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant77<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, MatchToken, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -8999,7 +9202,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant26<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, NonterminalString, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9010,7 +9213,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant16<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Parameter, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9021,7 +9224,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant80<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Path, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9032,7 +9235,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant28<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Pattern<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9043,7 +9246,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant82<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, PatternKind<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9054,7 +9257,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant85<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, RepeatOp, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9065,7 +9268,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant86<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, String, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9076,7 +9279,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant30<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Symbol, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9087,7 +9290,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant89<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, SymbolKind, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9098,7 +9301,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant76<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TerminalLiteral, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9109,7 +9312,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant75<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TerminalString, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9120,7 +9323,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant0<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Tok<'input>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9131,7 +9334,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant90<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Top, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9142,7 +9345,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant32<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TypeBound<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9153,7 +9356,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant34<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TypeBoundParameter<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9164,7 +9367,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant36<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TypeParameter, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9175,7 +9378,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant3<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, TypeRef, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9186,7 +9389,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant43<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Alternative>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9197,7 +9400,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant50<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Conversion>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9208,7 +9411,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant83<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Lifetime>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9219,7 +9422,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant53<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<MatchItem>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9230,7 +9433,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant54<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<NonterminalString>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9241,7 +9444,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant51<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Parameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9252,7 +9455,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant55<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Pattern<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9263,7 +9466,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant56<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<Symbol>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9274,7 +9477,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant84<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<TypeBound<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9285,7 +9488,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant5<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<TypeBoundParameter<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9296,7 +9499,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant57<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<TypeParameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9307,7 +9510,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant58<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9318,7 +9521,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant52<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Vec<WhereClause<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9329,7 +9532,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant94<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, Visibility, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9340,7 +9543,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant18<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, WhereClause<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9351,7 +9554,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant39<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, usize, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9362,7 +9565,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant47<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<(Atom, String)>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9373,7 +9576,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant41<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<ActionKind>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9384,7 +9587,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant42<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Alternative>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9395,7 +9598,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant8<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Condition>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9406,7 +9609,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant60<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Conversion>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9417,7 +9620,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant64<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<FieldPattern<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9428,7 +9631,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant72<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Lifetime>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9439,7 +9642,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant74<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<MatchItem>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9450,7 +9653,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant79<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<NonterminalString>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9461,7 +9664,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant67<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Parameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9472,7 +9675,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant81<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Pattern<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9483,7 +9686,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant88<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Symbol>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9494,7 +9697,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant2<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Tok<'input>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9505,7 +9708,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant91<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<TypeBound<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9516,7 +9719,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant92<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<TypeBoundParameter<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9527,7 +9730,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant93<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<TypeParameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9538,7 +9741,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant4<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9549,7 +9752,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant68<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Vec<Parameter>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9560,7 +9763,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant6<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Vec<TypeBoundParameter<TypeRef>>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9571,7 +9774,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant69<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Vec<TypeParameter>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9582,7 +9785,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant71<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<Vec<WhereClause<TypeRef>>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9593,7 +9796,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant70<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::option::Option<WhereClause<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9604,7 +9807,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant11<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Alternative>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9615,7 +9818,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant45<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Annotation>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9626,7 +9829,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant49<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<AssociatedType>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9637,7 +9840,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant21<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Atom>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9648,7 +9851,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant13<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Conversion>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9659,7 +9862,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant15<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<FieldPattern<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9670,7 +9873,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant66<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<GrammarItem>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9681,7 +9884,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant23<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Lifetime>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9692,7 +9895,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant25<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<MatchItem>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9703,7 +9906,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant27<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<NonterminalString>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9714,7 +9917,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant17<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Parameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9725,7 +9928,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant29<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Pattern<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9736,7 +9939,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant87<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<String>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9747,7 +9950,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant31<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<Symbol>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9758,7 +9961,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant33<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<TypeBound<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9769,7 +9972,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant35<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<TypeBoundParameter<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9780,7 +9983,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant37<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<TypeParameter>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9791,7 +9994,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant38<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<TypeRef>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9802,7 +10005,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant19<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, ::std::vec::Vec<WhereClause<TypeRef>>, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9813,7 +10016,7 @@ _ => panic!("symbol type mismatch")
 fn ___pop_Variant1<
   'input,
 >(
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>
 ) -> (usize, &'input str, usize)
  {
 match ___symbols.pop().unwrap() {
@@ -9828,7 +10031,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -9847,12 +10050,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // "::"? =  => ActionFn(134);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action134::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant2(___nt), ___end));
@@ -9865,7 +10068,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -9884,12 +10087,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ";"? =  => ActionFn(151);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action151::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant2(___nt), ___end));
@@ -9902,7 +10105,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -9921,12 +10124,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // "mut"? =  => ActionFn(140);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action140::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant2(___nt), ___end));
@@ -9939,7 +10142,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -9959,7 +10162,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -9979,12 +10182,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ("->" <TypeRef>)? =  => ActionFn(165);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action165::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant4(___nt), ___end));
@@ -9997,7 +10200,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10017,7 +10220,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10037,12 +10240,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (":" <TypeRef>)? =  => ActionFn(157);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action157::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant4(___nt), ___end));
@@ -10055,7 +10258,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10076,7 +10279,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10097,12 +10300,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ("<" <Comma<TypeBoundParameter>> ">")? =  => ActionFn(161);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action161::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant6(___nt), ___end));
@@ -10115,7 +10318,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10135,7 +10338,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10155,12 +10358,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ("if" <Cond>)? =  => ActionFn(146);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action146::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant8(___nt), ___end));
@@ -10173,12 +10376,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // () =  => ActionFn(169);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action169::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant9(___nt), ___end));
@@ -10191,7 +10394,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10211,12 +10414,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Alternative> ",")* =  => ActionFn(237);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action237::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant11(___nt), ___end));
@@ -10229,7 +10432,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10248,7 +10451,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10268,7 +10471,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10289,7 +10492,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10309,12 +10512,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Conversion> ",")* =  => ActionFn(261);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action261::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant13(___nt), ___end));
@@ -10327,7 +10530,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10346,7 +10549,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10366,7 +10569,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10387,7 +10590,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10407,12 +10610,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<FieldPattern> ",")* =  => ActionFn(122);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action122::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant15(___nt), ___end));
@@ -10425,7 +10628,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10444,7 +10647,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10464,7 +10667,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10485,7 +10688,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10505,12 +10708,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<GrammarParameter> ",")* =  => ActionFn(227);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action227::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant17(___nt), ___end));
@@ -10523,7 +10726,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10542,7 +10745,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10562,7 +10765,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10583,7 +10786,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10603,12 +10806,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<GrammarWhereClause> ",")* =  => ActionFn(204);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action204::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant19(___nt), ___end));
@@ -10621,7 +10824,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10640,7 +10843,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10660,7 +10863,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10681,7 +10884,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10701,12 +10904,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Id> "::")* =  => ActionFn(130);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action130::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant21(___nt), ___end));
@@ -10719,7 +10922,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10738,7 +10941,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10758,7 +10961,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10779,7 +10982,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10799,12 +11002,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Lifetime> "+")* =  => ActionFn(207);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action207::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant23(___nt), ___end));
@@ -10817,7 +11020,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10836,7 +11039,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10856,7 +11059,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10877,7 +11080,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10897,12 +11100,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<MatchItem> ",")* =  => ActionFn(256);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action256::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant25(___nt), ___end));
@@ -10915,7 +11118,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10934,7 +11137,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10954,7 +11157,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10975,7 +11178,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -10995,12 +11198,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<NotMacroId> ",")* =  => ActionFn(232);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action232::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant27(___nt), ___end));
@@ -11013,7 +11216,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11032,7 +11235,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11052,7 +11255,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11073,7 +11276,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11093,12 +11296,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Pattern> ",")* =  => ActionFn(266);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action266::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant29(___nt), ___end));
@@ -11111,7 +11314,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11130,7 +11333,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11150,7 +11353,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11171,7 +11374,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11191,12 +11394,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<Symbol> ",")* =  => ActionFn(242);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action242::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant31(___nt), ___end));
@@ -11209,7 +11412,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11228,7 +11431,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11248,7 +11451,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11269,7 +11472,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11289,12 +11492,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<TypeBound> "+")* =  => ActionFn(212);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action212::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant33(___nt), ___end));
@@ -11307,7 +11510,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11326,7 +11529,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11346,7 +11549,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11367,7 +11570,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11387,12 +11590,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<TypeBoundParameter> ",")* =  => ActionFn(222);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action222::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant35(___nt), ___end));
@@ -11405,7 +11608,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11424,7 +11627,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11444,7 +11647,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11465,7 +11668,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11485,12 +11688,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<TypeParameter> ",")* =  => ActionFn(199);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action199::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant37(___nt), ___end));
@@ -11503,7 +11706,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11522,7 +11725,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11542,7 +11745,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11563,7 +11766,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11583,12 +11786,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<TypeRef> ",")* =  => ActionFn(217);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action217::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant38(___nt), ___end));
@@ -11601,7 +11804,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11620,7 +11823,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11640,7 +11843,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11661,7 +11864,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11681,12 +11884,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // (<TypeRefOrLifetime> ",")* =  => ActionFn(247);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action247::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant38(___nt), ___end));
@@ -11699,7 +11902,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11718,7 +11921,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11738,7 +11941,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11759,12 +11962,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // @L =  => ActionFn(182);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action182::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant39(___nt), ___end));
@@ -11777,12 +11980,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // @R =  => ActionFn(181);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action181::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant39(___nt), ___end));
@@ -11795,7 +11998,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11814,7 +12017,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11833,7 +12036,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11852,7 +12055,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11871,7 +12074,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11890,12 +12093,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Action? =  => ActionFn(144);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action144::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant41(___nt), ___end));
@@ -11908,7 +12111,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11930,7 +12133,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11951,7 +12154,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11971,7 +12174,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -11990,7 +12193,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12011,7 +12214,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12030,7 +12233,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12049,12 +12252,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Alternative? =  => ActionFn(236);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action236::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant42(___nt), ___end));
@@ -12067,7 +12270,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12087,7 +12290,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12109,7 +12312,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12130,7 +12333,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12153,7 +12356,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12175,12 +12378,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Annotation* =  => ActionFn(183);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action183::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant45(___nt), ___end));
@@ -12193,7 +12396,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12212,7 +12415,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12231,7 +12434,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12251,7 +12454,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12274,7 +12477,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12293,12 +12496,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // AnnotationArg? =  => ActionFn(155);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action155::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant47(___nt), ___end));
@@ -12311,7 +12514,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12334,12 +12537,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // AssociatedType* =  => ActionFn(128);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action128::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant49(___nt), ___end));
@@ -12352,7 +12555,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12371,7 +12574,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12390,7 +12593,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12410,7 +12613,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12429,12 +12632,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<Alternative> =  => ActionFn(448);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action448::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant43(___nt), ___end));
@@ -12447,7 +12650,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12467,7 +12670,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12486,7 +12689,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12505,12 +12708,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<Conversion> =  => ActionFn(466);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action466::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant50(___nt), ___end));
@@ -12523,7 +12726,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12543,7 +12746,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12562,7 +12765,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12581,12 +12784,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<GrammarParameter> =  => ActionFn(492);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action492::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant51(___nt), ___end));
@@ -12599,7 +12802,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12619,7 +12822,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12638,7 +12841,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12657,12 +12860,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<GrammarWhereClause> =  => ActionFn(520);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action520::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant52(___nt), ___end));
@@ -12675,7 +12878,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12695,7 +12898,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12714,7 +12917,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12733,12 +12936,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<MatchItem> =  => ActionFn(564);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action564::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant53(___nt), ___end));
@@ -12751,7 +12954,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12771,7 +12974,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12790,7 +12993,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12809,12 +13012,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<NotMacroId> =  => ActionFn(568);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action568::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant54(___nt), ___end));
@@ -12827,7 +13030,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12847,7 +13050,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12866,7 +13069,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12885,12 +13088,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<Pattern> =  => ActionFn(572);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action572::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant55(___nt), ___end));
@@ -12903,7 +13106,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12923,7 +13126,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12942,7 +13145,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12961,12 +13164,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<Symbol> =  => ActionFn(642);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action642::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant56(___nt), ___end));
@@ -12979,7 +13182,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -12999,7 +13202,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13018,7 +13221,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13037,12 +13240,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<TypeBoundParameter> =  => ActionFn(650);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action650::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant5(___nt), ___end));
@@ -13055,7 +13258,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13075,7 +13278,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13094,7 +13297,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13113,12 +13316,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<TypeParameter> =  => ActionFn(654);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action654::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant57(___nt), ___end));
@@ -13131,7 +13334,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13151,7 +13354,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13170,7 +13373,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13189,12 +13392,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<TypeRef> =  => ActionFn(658);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action658::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant58(___nt), ___end));
@@ -13207,7 +13410,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13227,7 +13430,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13246,7 +13449,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13265,12 +13468,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Comma<TypeRefOrLifetime> =  => ActionFn(662);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action662::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant58(___nt), ___end));
@@ -13283,7 +13486,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13303,7 +13506,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13322,7 +13525,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13343,7 +13546,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13362,7 +13565,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13381,7 +13584,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13400,7 +13603,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13419,7 +13622,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13438,12 +13641,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Conversion? =  => ActionFn(260);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action260::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant60(___nt), ___end));
@@ -13456,7 +13659,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13479,7 +13682,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13498,12 +13701,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ExprSymbol =  => ActionFn(639);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action639::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant62(___nt), ___end));
@@ -13516,7 +13719,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13535,7 +13738,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13557,7 +13760,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13580,7 +13783,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13603,7 +13806,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13627,7 +13830,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13648,7 +13851,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13670,7 +13873,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13691,7 +13894,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13710,12 +13913,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // FieldPattern? =  => ActionFn(121);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action121::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant64(___nt), ___end));
@@ -13728,7 +13931,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13750,12 +13953,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ForAll =  => ActionFn(323);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action323::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant57(___nt), ___end));
@@ -13768,7 +13971,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13791,7 +13994,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13815,7 +14018,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13839,7 +14042,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13864,7 +14067,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13886,7 +14089,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13909,7 +14112,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13932,7 +14135,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13956,7 +14159,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -13978,7 +14181,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14001,7 +14204,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14024,7 +14227,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14048,7 +14251,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14069,7 +14272,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14091,7 +14294,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14113,7 +14316,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14136,7 +14339,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14158,7 +14361,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14181,7 +14384,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14204,7 +14407,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14228,7 +14431,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14249,7 +14452,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14271,7 +14474,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14293,7 +14496,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14316,7 +14519,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14337,7 +14540,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14359,7 +14562,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14381,7 +14584,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14404,7 +14607,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14424,7 +14627,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14445,7 +14648,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14466,7 +14669,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14488,7 +14691,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14512,7 +14715,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14537,7 +14740,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14562,7 +14765,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14588,7 +14791,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14611,7 +14814,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14635,7 +14838,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14659,7 +14862,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14684,7 +14887,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14707,7 +14910,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14731,7 +14934,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14755,7 +14958,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14780,7 +14983,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14802,7 +15005,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14825,7 +15028,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14848,7 +15051,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14872,7 +15075,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14895,7 +15098,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14919,7 +15122,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14943,7 +15146,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14968,7 +15171,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -14990,7 +15193,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15013,7 +15216,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15036,7 +15239,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15060,7 +15263,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15082,7 +15285,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15105,7 +15308,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15128,7 +15331,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15152,7 +15355,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15173,7 +15376,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15195,7 +15398,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15217,7 +15420,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15240,7 +15443,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15264,7 +15467,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15289,7 +15492,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15314,7 +15517,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15340,7 +15543,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15363,7 +15566,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15387,7 +15590,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15411,7 +15614,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15436,7 +15639,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15459,7 +15662,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15483,7 +15686,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15507,7 +15710,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15532,7 +15735,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15554,7 +15757,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15577,7 +15780,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15600,7 +15803,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15624,7 +15827,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15647,7 +15850,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15671,7 +15874,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15695,7 +15898,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15720,7 +15923,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15742,7 +15945,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15765,7 +15968,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15788,7 +15991,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15812,7 +16015,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15834,7 +16037,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15857,7 +16060,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15880,7 +16083,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15904,7 +16107,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15925,7 +16128,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15947,7 +16150,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15969,7 +16172,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -15992,7 +16195,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16017,7 +16220,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16043,7 +16246,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16069,7 +16272,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16096,7 +16299,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16120,7 +16323,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16145,7 +16348,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16170,7 +16373,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16196,7 +16399,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16220,7 +16423,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16245,7 +16448,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16270,7 +16473,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16296,7 +16499,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16319,7 +16522,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16343,7 +16546,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16367,7 +16570,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16392,7 +16595,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16416,7 +16619,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16441,7 +16644,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16466,7 +16669,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16492,7 +16695,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16515,7 +16718,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16539,7 +16742,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16563,7 +16766,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16588,7 +16791,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16611,7 +16814,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16635,7 +16838,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16659,7 +16862,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16684,7 +16887,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16706,7 +16909,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16729,7 +16932,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16752,7 +16955,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16776,7 +16979,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16795,7 +16998,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16814,7 +17017,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16833,7 +17036,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16852,12 +17055,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarItem* =  => ActionFn(173);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action173::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant66(___nt), ___end));
@@ -16870,7 +17073,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16889,7 +17092,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16908,7 +17111,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16928,7 +17131,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16949,7 +17152,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -16968,12 +17171,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarParameter? =  => ActionFn(226);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action226::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant67(___nt), ___end));
@@ -16986,7 +17189,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17007,7 +17210,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17026,12 +17229,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarParameters? =  => ActionFn(178);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action178::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant68(___nt), ___end));
@@ -17044,7 +17247,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17065,7 +17268,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17084,12 +17287,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarTypeParameters? =  => ActionFn(180);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action180::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant69(___nt), ___end));
@@ -17102,7 +17305,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17123,7 +17326,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17148,7 +17351,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17169,7 +17372,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17188,12 +17391,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarWhereClause? =  => ActionFn(203);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action203::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant70(___nt), ___end));
@@ -17206,7 +17409,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17226,7 +17429,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17245,12 +17448,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // GrammarWhereClauses? =  => ActionFn(176);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action176::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant71(___nt), ___end));
@@ -17263,7 +17466,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17282,7 +17485,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17301,7 +17504,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17320,7 +17523,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17339,12 +17542,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Lifetime? =  => ActionFn(137);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action137::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant72(___nt), ___end));
@@ -17357,7 +17560,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17376,7 +17579,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17395,7 +17598,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17414,7 +17617,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17433,7 +17636,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17452,12 +17655,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // MatchItem? =  => ActionFn(255);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action255::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant74(___nt), ___end));
@@ -17470,7 +17673,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17489,7 +17692,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17508,7 +17711,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17527,7 +17730,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17550,7 +17753,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17572,7 +17775,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17596,7 +17799,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17621,7 +17824,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17643,7 +17846,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17666,7 +17869,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17688,7 +17891,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17707,7 +17910,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17726,7 +17929,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17745,7 +17948,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17764,12 +17967,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // NotMacroId? =  => ActionFn(231);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action231::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant79(___nt), ___end));
@@ -17782,7 +17985,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17802,7 +18005,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17823,7 +18026,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17842,7 +18045,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17862,7 +18065,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17881,7 +18084,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17900,12 +18103,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Pattern? =  => ActionFn(265);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action265::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant81(___nt), ___end));
@@ -17918,7 +18121,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17940,7 +18143,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17962,7 +18165,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -17983,7 +18186,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18006,7 +18209,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18028,7 +18231,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18050,7 +18253,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18073,7 +18276,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18092,7 +18295,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18111,7 +18314,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18132,7 +18335,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18153,7 +18356,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18172,7 +18375,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18191,7 +18394,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18210,12 +18413,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Plus<Lifetime> =  => ActionFn(556);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action556::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant83(___nt), ___end));
@@ -18228,7 +18431,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18248,7 +18451,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18267,7 +18470,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18286,12 +18489,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Plus<TypeBound> =  => ActionFn(646);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action646::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant84(___nt), ___end));
@@ -18304,7 +18507,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18324,7 +18527,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18343,7 +18546,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18362,7 +18565,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18381,7 +18584,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18400,7 +18603,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18419,7 +18622,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18438,7 +18641,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18457,7 +18660,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18476,7 +18679,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18495,12 +18698,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // ShebangAttribute* =  => ActionFn(187);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action187::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant87(___nt), ___end));
@@ -18513,7 +18716,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18532,7 +18735,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18551,7 +18754,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18571,7 +18774,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18595,7 +18798,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18618,7 +18821,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18639,7 +18842,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18658,12 +18861,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Symbol* =  => ActionFn(141);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action141::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant31(___nt), ___end));
@@ -18676,7 +18879,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18695,7 +18898,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18714,7 +18917,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18734,7 +18937,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18753,7 +18956,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18773,7 +18976,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18792,7 +18995,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18811,12 +19014,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Symbol? =  => ActionFn(241);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action241::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant88(___nt), ___end));
@@ -18829,7 +19032,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18851,7 +19054,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18870,7 +19073,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18889,7 +19092,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18908,7 +19111,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18929,7 +19132,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18948,7 +19151,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18967,7 +19170,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -18986,7 +19189,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19005,7 +19208,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19024,7 +19227,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19044,7 +19247,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19064,7 +19267,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19084,7 +19287,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19104,7 +19307,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19124,7 +19327,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19143,7 +19346,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19171,7 +19374,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19195,7 +19398,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19221,7 +19424,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19243,7 +19446,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19269,7 +19472,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19291,7 +19494,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19314,7 +19517,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19333,7 +19536,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19352,12 +19555,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // TypeBound? =  => ActionFn(211);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action211::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant91(___nt), ___end));
@@ -19370,7 +19573,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19389,7 +19592,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19408,7 +19611,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19429,7 +19632,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19448,12 +19651,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // TypeBoundParameter? =  => ActionFn(221);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action221::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant92(___nt), ___end));
@@ -19466,7 +19669,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19485,7 +19688,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19504,7 +19707,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19523,7 +19726,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19542,12 +19745,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // TypeParameter? =  => ActionFn(198);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action198::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant93(___nt), ___end));
@@ -19560,7 +19763,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19581,7 +19784,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19602,7 +19805,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19623,7 +19826,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19645,7 +19848,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19666,7 +19869,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19687,7 +19890,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19707,7 +19910,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19729,7 +19932,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19748,7 +19951,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19771,7 +19974,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19791,7 +19994,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19820,7 +20023,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19845,7 +20048,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19872,7 +20075,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19895,7 +20098,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19914,12 +20117,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // TypeRef? =  => ActionFn(216);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action216::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant4(___nt), ___end));
@@ -19932,7 +20135,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19951,7 +20154,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19970,7 +20173,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -19989,12 +20192,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // TypeRefOrLifetime? =  => ActionFn(246);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action246::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant4(___nt), ___end));
@@ -20007,7 +20210,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20027,12 +20230,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Use* =  => ActionFn(185);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action185::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant66(___nt), ___end));
@@ -20045,7 +20248,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20064,7 +20267,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20083,7 +20286,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20103,7 +20306,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20125,7 +20328,7 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
@@ -20144,12 +20347,12 @@ text: &'input str,
 ___action: i16,
 ___lookahead_start: Option<&usize>,
 ___states: &mut ::std::vec::Vec<i16>,
-___symbols: &mut ::std::vec::Vec<(usize,___Symbol<'input>,usize)>,
+___symbols: &mut ___lalrpop_util::stack::Stack<___Symbol<'input>>,
 _: ::std::marker::PhantomData<(&'input ())>,
 ) -> (usize, usize)
 {
 // Visibility =  => ActionFn(324);
-let ___start = ___symbols.last().map(|s| s.2.clone()).unwrap_or_default();
+let ___start = ___symbols.with_last(|s| s.2.clone()).unwrap_or_default();
 let ___end = ___lookahead_start.cloned().unwrap_or_else(|| ___start.clone());
 let ___nt = super::___action324::<>(text, &___start, &___end);
 ___symbols.push((___start, ___Symbol::Variant94(___nt), ___end));

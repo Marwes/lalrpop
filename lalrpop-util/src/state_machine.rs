@@ -2,6 +2,8 @@
 
 use std::fmt::Debug;
 
+use stack::{Push, Stack};
+
 const DEBUG_ENABLED: bool = false;
 
 macro_rules! debug {
@@ -134,7 +136,7 @@ pub trait ParserDefinition: Sized {
         reduce_index: Self::ReduceIndex,
         start_location: Option<&Self::Location>,
         states: &mut Vec<Self::StateIndex>,
-        symbols: &mut Vec<SymbolTriple<Self>>,
+        symbols: &mut Stack<Symbol<Self>>,
     ) -> Option<ParseResult<Self>>;
 
     /// Returns information about how many states will be popped
@@ -188,7 +190,7 @@ where
     definition: D,
     tokens: I,
     states: Vec<D::StateIndex>,
-    symbols: Vec<SymbolTriple<D>>,
+    symbols: Stack<Symbol<D>>,
     last_location: D::Location,
 }
 
@@ -201,6 +203,7 @@ enum NextToken<D: ParserDefinition> {
 impl<D, I> Parser<D, I>
 where
     D: ParserDefinition,
+    Symbol<D>: Push<Value = SymbolTriple<D>>,
     I: Iterator<Item = Result<TokenTriple<D>, ParseError<D>>>,
 {
     pub fn drive(definition: D, tokens: I) -> ParseResult<D> {
@@ -210,7 +213,7 @@ where
             definition,
             tokens,
             states: vec![start_state],
-            symbols: vec![],
+            symbols: Default::default(),
             last_location,
         }
         .parse()
@@ -422,36 +425,6 @@ where
         // token. We do this first, before we pop any symbols off the
         // stack. There are several possibilities, in order of
         // preference.
-        //
-        // For the **start** of the message, we prefer to use the start of any
-        // popped states. This represents parts of the input we had consumed but
-        // had to roll back and ignore.
-        //
-        // Example:
-        //
-        //       a + (b + /)
-        //              ^ start point is here, since this `+` will be popped off
-        //
-        // If there are no popped states, but there *are* dropped tokens, we can use
-        // the start of those.
-        //
-        // Example:
-        //
-        //       a + (b + c e)
-        //                  ^ start point would be here
-        //
-        // Finally, if there are no popped states *nor* dropped tokens, we can use
-        // the end of the top-most state.
-
-        let start = if let Some(popped_sym) = self.symbols.get(top) {
-            popped_sym.0.clone()
-        } else if let Some(dropped_token) = dropped_tokens.first() {
-            dropped_token.0.clone()
-        } else if top > 0 {
-            self.symbols[top - 1].2.clone()
-        } else {
-            self.definition.start_location()
-        };
 
         // For the end span, here are the possibilities:
         //
@@ -481,14 +454,46 @@ where
         //             -
 
         let end = if let Some(dropped_token) = dropped_tokens.last() {
-            dropped_token.2.clone()
+            Some(dropped_token.2.clone())
         } else if states_len - 1 > top {
-            self.symbols.last().unwrap().2.clone()
+            Some(self.symbols.with_last(|t| t.2.clone()).unwrap())
         } else if let Some(lookahead) = opt_lookahead.as_ref() {
-            lookahead.0.clone()
+            Some(lookahead.0.clone())
         } else {
-            start.clone()
+            None
         };
+
+        // For the **start** of the message, we prefer to use the start of any
+        // popped states. This represents parts of the input we had consumed but
+        // had to roll back and ignore.
+        //
+        // Example:
+        //
+        //       a + (b + /)
+        //              ^ start point is here, since this `+` will be popped off
+        //
+        // If there are no popped states, but there *are* dropped tokens, we can use
+        // the start of those.
+        //
+        // Example:
+        //
+        //       a + (b + c e)
+        //                  ^ start point would be here
+        //
+        // Finally, if there are no popped states *nor* dropped tokens, we can use
+        // the end of the top-most state.
+
+        let start = if let Some(popped_sym) = self.symbols.pop_until(top) {
+            popped_sym.0.clone()
+        } else if let Some(dropped_token) = dropped_tokens.first() {
+            dropped_token.0.clone()
+        } else if top > 0 {
+            self.symbols.with_last(|t| t.2.clone()).unwrap()
+        } else {
+            self.definition.start_location()
+        };
+
+        let end = end.unwrap_or_else(|| start.clone());
 
         self.states.truncate(top + 1);
         self.symbols.truncate(top);
