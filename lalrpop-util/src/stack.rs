@@ -6,7 +6,7 @@ pub struct Stack<T> {
     _marker: PhantomData<T>,
 }
 
-pub type Tag = u16;
+pub type Tag = u8;
 
 impl<T> Default for Stack<T> {
     fn default() -> Self {
@@ -80,14 +80,16 @@ where
             return None;
         }
         unsafe {
-            let tag_start = self.buf.len() - 2;
-            let tag = Tag::from_ne_bytes(*<&[u8; 2]>::try_from(&self.buf[tag_start..]).unwrap());
+            let tag_start = self.buf.len() - mem::size_of::<Tag>();
+            let tag = Tag::from_ne_bytes(
+                *<&[u8; mem::size_of::<Tag>()]>::try_from(&self.buf[tag_start..]).unwrap(),
+            );
             Some(T::pop_from(tag, self))
         }
     }
 
     pub unsafe fn unchecked_pop<U>(&mut self) -> U {
-        let tag_start = self.buf.len() - 2;
+        let tag_start = self.buf.len() - mem::size_of::<Tag>();
         let value_start = tag_start - mem::size_of::<U>();
         let value = ptr::read_unaligned(self.buf[value_start..].as_ptr() as *const U);
         self.buf.truncate(value_start);

@@ -1435,11 +1435,6 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         )
     }
 
-    fn spanned_symbol_type(&self) -> String {
-        let loc_type = self.types.terminal_loc_type();
-        format!("({},{},{})", loc_type, self.symbol_type(), loc_type)
-    }
-
     fn emit_expected_tokens_fn(&mut self) -> io::Result<()> {
         rust!(
             self.out,
