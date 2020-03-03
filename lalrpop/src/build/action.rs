@@ -36,7 +36,7 @@ use std::io::{self, Write};
 
 #[derive(Clone, Debug)]
 pub enum Arg {
-    Content,
+    Content(r::TypeRepr),
     Lookahead,
     Lookbehind,
 }
@@ -67,7 +67,11 @@ impl ArgUses {
                 }
                 match defn.kind {
                     r::ActionFnDefnKind::User(ref data) => {
-                        uses.actions[i] = data.arg_patterns.iter().map(|_| Arg::Content).collect();
+                        uses.actions[i] = data
+                            .arg_types
+                            .iter()
+                            .map(|t| Arg::Content(t.clone()))
+                            .collect();
                         done[i] = true;
                     }
                     r::ActionFnDefnKind::Lookaround(ref data) => {
@@ -266,15 +270,7 @@ fn emit_inline_action_code<W: Write>(
 ) -> io::Result<()> {
     let ret_type = ret_type_string(grammar, defn);
 
-    let arg_types: Vec<_> = data
-        .symbols
-        .iter()
-        .flat_map(|sym| match *sym {
-            r::InlinedSymbol::Original(ref s) => vec![s.clone()],
-            r::InlinedSymbol::Inlined(_, ref syms) => syms.clone(),
-        })
-        .map(|s| s.ty(&grammar.types))
-        .collect();
+    let arg_types = arg_uses.arg_uses(index);
 
     // this is the number of symbols we expect to be passed in; it is
     // distinct from data.symbols.len(), because sometimes we have
@@ -283,8 +279,10 @@ fn emit_inline_action_code<W: Write>(
 
     let arguments: Vec<_> = arg_types
         .iter()
-        .zip(arg_uses.arg_uses(index))
-        .map(|(&t, arg)| t.clone())
+        .map(|arg| match arg {
+            Arg::Content(t) => t.clone(),
+            Arg::Lookahead | Arg::Lookbehind => grammar.types.terminal_loc_type(),
+        })
         .enumerate()
         .map(|(i, t)| format!("{}{}: {}", grammar.prefix, i, t))
         .collect();
@@ -332,7 +330,7 @@ fn emit_inline_action_code<W: Write>(
                     // symbol respectively. Easy peezy.
 
                     match arg_uses.arg_use(data.action.index(), arg_index) {
-                        Arg::Content => (),
+                        Arg::Content(_) => (),
                         Arg::Lookahead => {
                             let last_arg_index = arg_counter + syms.len() - 1;
                             rust!(
@@ -361,7 +359,7 @@ fn emit_inline_action_code<W: Write>(
                     // item.
 
                     match arg_uses.arg_use(data.action.index(), arg_index) {
-                        Arg::Content => (),
+                        Arg::Content(_) => (),
                         Arg::Lookahead => {
                             if arg_counter < num_flat_args {
                                 rust!(
@@ -479,7 +477,7 @@ fn emit_inline_action_code<W: Write>(
                 rust!(rust, ");");
 
                 let select = match arg_uses.arg_use(data.action.index(), arg_index) {
-                    Arg::Content => "temp",
+                    Arg::Content(_) => "temp",
                     Arg::Lookahead => "start",
                     Arg::Lookbehind => "end",
                 };

@@ -1028,7 +1028,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             .zip(self.action_arg_uses.arg_uses(production.action.index()))
             .map(|(sym, arg)| match arg {
                 action::Arg::Lookbehind => format!("{}.0", sym),
-                action::Arg::Content => format!("{}.1", sym),
+                action::Arg::Content(_) => format!("{}.1", sym),
                 action::Arg::Lookahead => format!("{}.2", sym),
             })
             .collect::<Vec<_>>();
