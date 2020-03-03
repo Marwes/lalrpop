@@ -821,9 +821,14 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
                 let phantom_data_expr = self.phantom_data_expr();
                 rust!(
                     self.out,
-                    "{p}reduce{}({}{p}lookahead_start, {p}symbols, {})",
+                    "{p}reduce{}({}{} {p}symbols, {})",
                     index,
                     self.grammar.user_parameter_refs(),
+                    if production.symbols.is_empty() {
+                        format!("{}lookahead_start,", self.prefix)
+                    } else {
+                        "".into()
+                    },
                     phantom_data_expr,
                     p = self.prefix
                 );
@@ -897,7 +902,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             .zip(0..)
         {
             if self.custom.reduce_functions.contains(&index) {
-                self.emit_reduce_alternative_fn_header(index)?;
+                self.emit_reduce_alternative_fn_header(index, production)?;
                 self.emit_reduce_action(production)?;
                 rust!(self.out, "}}");
             }
@@ -905,18 +910,26 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         Ok(())
     }
 
-    fn emit_reduce_alternative_fn_header(&mut self, index: usize) -> io::Result<()> {
+    fn emit_reduce_alternative_fn_header(
+        &mut self,
+        index: usize,
+        production: &Production,
+    ) -> io::Result<()> {
         let loc_type = self.types.terminal_loc_type();
         let spanned_symbol_type = self.spanned_symbol_type();
 
-        let parameters = vec![
-            format!("{}lookahead_start: Option<&{}>", self.prefix, loc_type),
-            format!(
-                "{}symbols: &mut ::std::vec::Vec<{}>",
-                self.prefix, spanned_symbol_type
-            ),
-            format!("_: {}", self.phantom_data_type()),
-        ];
+        let mut parameters = vec![];
+        if production.symbols.is_empty() {
+            parameters.push(format!(
+                "{}lookahead_start: Option<&{}>",
+                self.prefix, loc_type
+            ));
+        }
+        parameters.push(format!(
+            "{}symbols: &mut ::std::vec::Vec<{}>",
+            self.prefix, spanned_symbol_type
+        ));
+        parameters.push(format!("_: {}", self.phantom_data_type()));
 
         self.out
             .fn_header(
