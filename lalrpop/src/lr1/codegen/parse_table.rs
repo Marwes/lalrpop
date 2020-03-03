@@ -1,5 +1,6 @@
 //! A compiler from an LR(1) table to a traditional table driven parser.
 
+use build::action;
 use collections::{Entry, Map, Set};
 use grammar::repr::*;
 use itertools::Itertools;
@@ -23,6 +24,7 @@ pub fn compile<'grammar, W: Write>(
     start_symbol: NonterminalString,
     states: &[LR1State<'grammar>],
     action_module: &str,
+    action_arg_uses: &action::ArgUses,
     out: &mut RustWrite<W>,
 ) -> io::Result<()> {
     let mut table_driven = CodeGenerator::new_table_driven(
@@ -31,6 +33,7 @@ pub fn compile<'grammar, W: Write>(
         start_symbol,
         states,
         action_module,
+        action_arg_uses,
         out,
     );
     table_driven.write()
@@ -83,6 +86,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
         start_symbol: NonterminalString,
         states: &'ascent [LR1State<'grammar>],
         action_module: &str,
+        action_arg_uses: &'grammar action::ArgUses,
         out: &'ascent mut RustWrite<W>,
     ) -> Self {
         let (symbol_type_params, symbol_where_clauses) =
@@ -127,6 +131,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             out,
             false,
             action_module,
+            action_arg_uses,
             TableDriven {
                 symbol_type_params,
                 symbol_where_clauses,
@@ -798,12 +803,12 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
             "let ({p}pop_states, {p}nonterminal) = match {}action {{",
             p = self.prefix
         );
-        for (production, index) in self
+        for (index, production) in self
             .grammar
             .nonterminals
             .values()
             .flat_map(|nt| &nt.productions)
-            .zip(0..)
+            .enumerate()
         {
             rust!(self.out, "{} => {{", index);
             // In debug builds LLVM is not very good at reusing stack space which makes this
@@ -1018,10 +1023,25 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TableDrive
 
         let transfered_syms = transfer_syms.len();
 
-        let mut args = transfer_syms;
+        let mut args = transfer_syms
+            .iter()
+            .zip(self.action_arg_uses.arg_uses(production.action.index()))
+            .map(|(sym, arg)| match arg {
+                action::Arg::Lookbehind => format!("{}.0", sym),
+                action::Arg::Content => format!("{}.1", sym),
+                action::Arg::Lookahead => format!("{}.2", sym),
+            })
+            .collect::<Vec<_>>();
         if transfered_syms == 0 {
-            args.push(format!("&{}start", self.prefix));
-            args.push(format!("&{}end", self.prefix));
+            match self
+                .action_arg_uses
+                .arg_uses(production.action.index())
+                .get(0)
+            {
+                Some(action::Arg::Lookbehind) => args.push(format!("&{}start", self.prefix)),
+                Some(action::Arg::Lookahead) => args.push(format!("&{}end", self.prefix)),
+                _ => (),
+            }
         }
 
         // invoke the action code

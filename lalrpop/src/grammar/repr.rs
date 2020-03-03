@@ -173,7 +173,7 @@ pub enum LookaroundActionFnDefn {
     Lookbehind,
 }
 
-#[derive(Clone, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub enum InlinedSymbol {
     Original(Symbol),
     Inlined(ActionFn, Vec<Symbol>),

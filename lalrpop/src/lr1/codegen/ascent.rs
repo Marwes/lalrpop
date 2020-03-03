@@ -2,6 +2,7 @@
 //!
 //! [recursive ascent]: https://en.wikipedia.org/wiki/Recursive_ascent_parser
 
+use build::action;
 use collections::Multimap;
 use grammar::repr::{
     Grammar, NonterminalString, Production, Symbol, TerminalString, TypeParameter, TypeRepr,
@@ -23,6 +24,7 @@ pub fn compile<'grammar, W: Write>(
     start_symbol: NonterminalString,
     states: &[LR1State<'grammar>],
     action_module: &str,
+    action_arg_uses: &'grammar action::ArgUses,
     out: &mut RustWrite<W>,
 ) -> io::Result<()> {
     let graph = StateGraph::new(&states);
@@ -33,6 +35,7 @@ pub fn compile<'grammar, W: Write>(
         &graph,
         states,
         action_module,
+        action_arg_uses,
         out,
     );
     ascent.write()
@@ -122,6 +125,7 @@ impl<'ascent, 'grammar, W: Write>
         graph: &'ascent StateGraph,
         states: &'ascent [LR1State<'grammar>],
         action_module: &str,
+        action_arg_uses: &'grammar action::ArgUses,
         out: &'ascent mut RustWrite<W>,
     ) -> Self {
         let (nonterminal_type_params, nonterminal_where_clauses) =
@@ -143,6 +147,7 @@ impl<'ascent, 'grammar, W: Write>
             out,
             false,
             action_module,
+            action_arg_uses,
             RecursiveAscent {
                 graph,
                 state_inputs,

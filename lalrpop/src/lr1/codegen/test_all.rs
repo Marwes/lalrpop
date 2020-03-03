@@ -2,6 +2,7 @@
 //!
 //! [recursive ascent]: https://en.wikipedia.org/wiki/Recursive_ascent_parser
 
+use build::action;
 use grammar::repr::{Grammar, NonterminalString, TypeParameter};
 use lr1::core::*;
 use rust::RustWrite;
@@ -15,10 +16,17 @@ pub fn compile<'grammar, W: Write>(
     user_start_symbol: NonterminalString,
     start_symbol: NonterminalString,
     states: &[LR1State<'grammar>],
+    action_arg_uses: &'grammar action::ArgUses,
     out: &mut RustWrite<W>,
 ) -> io::Result<()> {
-    let mut ascent =
-        CodeGenerator::new_test_all(grammar, user_start_symbol, start_symbol, states, out);
+    let mut ascent = CodeGenerator::new_test_all(
+        grammar,
+        user_start_symbol,
+        start_symbol,
+        states,
+        action_arg_uses,
+        out,
+    );
     ascent.write()
 }
 
@@ -30,6 +38,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TestAll> {
         user_start_symbol: NonterminalString,
         start_symbol: NonterminalString,
         states: &'ascent [LR1State<'grammar>],
+        action_arg_uses: &'grammar action::ArgUses,
         out: &'ascent mut RustWrite<W>,
     ) -> Self {
         CodeGenerator::new(
@@ -40,6 +49,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TestAll> {
             out,
             true,
             "super",
+            action_arg_uses,
             TestAll,
         )
     }
@@ -56,6 +66,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TestAll> {
                 this.start_symbol.clone(),
                 this.states,
                 "super::super::super",
+                this.action_arg_uses,
                 this.out,
             )?;
             let pub_use = format!(
@@ -76,6 +87,7 @@ impl<'ascent, 'grammar, W: Write> CodeGenerator<'ascent, 'grammar, W, TestAll> {
                 this.start_symbol.clone(),
                 this.states,
                 "super::super::super",
+                this.action_arg_uses,
                 this.out,
             )?;
             rust!(this.out, "{}", pub_use);

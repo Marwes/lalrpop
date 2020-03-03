@@ -24,7 +24,7 @@ use std::path::{Path, PathBuf};
 use std::process::exit;
 use std::rc::Rc;
 
-mod action;
+pub(crate) mod action;
 mod fake_term;
 
 use self::fake_term::FakeTerminal;
@@ -355,6 +355,8 @@ fn emit_recursive_ascent(
         exit(1);
     }
 
+    let action_arg_uses = action::ArgUses::new(&grammar);
+
     for (user_nt, start_nt) in &grammar.start_nonterminals {
         // We generate these, so there should always be exactly 1
         // production. Otherwise the LR(1) algorithm doesn't know
@@ -392,6 +394,7 @@ fn emit_recursive_ascent(
                 start_nt.clone(),
                 &states,
                 "super",
+                &action_arg_uses,
                 &mut rust,
             )?,
             r::LrCodeGeneration::TableDriven => lr1::codegen::parse_table::compile(
@@ -400,6 +403,7 @@ fn emit_recursive_ascent(
                 start_nt.clone(),
                 &states,
                 "super",
+                &action_arg_uses,
                 &mut rust,
             )?,
 
@@ -408,6 +412,7 @@ fn emit_recursive_ascent(
                 user_nt.clone(),
                 start_nt.clone(),
                 &states,
+                &action_arg_uses,
                 &mut rust,
             )?,
         }
@@ -431,7 +436,7 @@ fn emit_recursive_ascent(
         );
     }
 
-    action::emit_action_code(grammar, &mut rust)?;
+    action::emit_action_code(grammar, &action_arg_uses, &mut rust)?;
 
     emit_to_triple_trait(grammar, &mut rust)?;
 
