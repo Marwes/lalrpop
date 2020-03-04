@@ -460,18 +460,24 @@ fn emit_inline_action_code<W: Write>(
                 for parameter in &grammar.parameters {
                     rust!(rust, "{},", parameter.name);
                 }
-                for i in 0..syms.len() {
-                    rust!(rust, "{}{},", grammar.prefix, arg_counter + i);
-                }
-                if syms.is_empty() {
-                    match arg_uses.arg_uses(inlined_action.index()).first() {
-                        Some(Arg::Lookbehind) => {
-                            rust!(rust, "&{}start{},", grammar.prefix, temp_counter)
+
+                let mut i = 0;
+                for arg in arg_uses.arg_uses(inlined_action.index()) {
+                    match arg {
+                        Arg::Content(_) => {
+                            rust!(rust, "{}{},", grammar.prefix, arg_counter + i);
+                            i += 1;
                         }
-                        Some(Arg::Lookahead) => {
-                            rust!(rust, "&{}end{},", grammar.prefix, temp_counter)
+                        Arg::Lookbehind => {
+                            if arg_counter + i == 0 {
+                                rust!(rust, "{}start{},", grammar.prefix, arg_counter + i)
+                            } else {
+                                rust!(rust, "{}end{},", grammar.prefix, arg_counter + i - 1)
+                            }
                         }
-                        _ => (),
+                        Arg::Lookahead => {
+                            rust!(rust, "{}start{},", grammar.prefix, arg_counter + i)
+                        }
                     }
                 }
                 rust!(rust, ");");
