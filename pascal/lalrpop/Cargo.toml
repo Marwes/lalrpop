@@ -1,0 +1,17 @@
+[package]
+name = "pascal"
+version = "0.11.0"
+authors = ["Niko Matsakis <niko@alum.mit.edu>"]
+build = "build.rs"
+
+[build-dependencies.lalrpop]
+path = "../../../lalrpop"
+features = ["lexer"]
+
+[dependencies]
+regex = "1"
+pico-args = "0.3.4"
+
+[dependencies.lalrpop-util]
+version = "0.19.1"
+path = "../../../lalrpop-util"
